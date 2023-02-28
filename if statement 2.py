@@ -6,7 +6,7 @@ if number == 0:
 elif number == 1:
     print("Talk to Customercare")
 
-elif number == 2:
+elif number == 2:git addgit add
     print("Get Safaricom Password")
 
 elif number == 3:

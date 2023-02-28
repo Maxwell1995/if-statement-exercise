@@ -1,10 +1,19 @@
-import datetime
+days_of_week = input("Enter the day of the week    ")
+if days_of_week == "monday":
+    print("false")
+elif days_of_week == "tuesday":
+    print("false")
 
-week_days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
-now = datetime.datetime.now()
-day = week_days[now.weekday()] # Note the change to now.weekday()
+elif days_of_week == "wednesday":
+    print("false")
 
-if day == 'Tuesday':
-    print ('yes it is tuesday')
-else :
-     print ('no')
+elif days_of_week == "thursday":
+    print("true")
+
+elif days_of_week == "friday":
+    print("false")
+
+else:
+    print("Try again")
+
+
